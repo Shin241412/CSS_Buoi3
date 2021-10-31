@@ -1471,7 +1471,7 @@ footer #social_icon ion-icon:nth-of-type(5)
     {
         width: 17em;
     }
-    footer .about #terms, footer #copyright
+    footer .about #terms, footer #copyright, #exclusive_title
     {
         display: none;
     }
