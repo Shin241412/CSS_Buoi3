@@ -22,7 +22,7 @@
                         <span><a href="#">Interface icons</a></span>
                         <!-- More menu -->
                         <div id="dropdown_menu">
-                            <span style="cursor: pointer;"><a href="#">More</a></span>
+                            <span style="cursor: pointer;"><a nohref onclick="toggle()" class="dropbtn">More</a></span>
                             <div class="flex_container">
                                 <div>
                                     <ul>
@@ -86,7 +86,7 @@
             </div>
             <!-- Content -->
             <div class="contents">
-                <h1>Access +5.7M vector icons & stickers</h1>
+                <h1 id="title_head">Access +5.7M vector icons & stickers</h1>
                 <p>Download free icons and stickers for your projects. Resources made by and for designers.</p> 
                 <p>PNG, SVG, EPS, PSD and BASE 64 formats.</p>
                 <!-- Search box -->
@@ -117,7 +117,7 @@
                 </div>
                 <div class="box">
                     <p class="title">Stickers</p>
-                    <p>Discover more than 5,500 stickers for WhatsApp, Instagram and Facebook available in PNG and SVG.</p>
+                    <p id="title_stickers">Discover more than 5,500 stickers for WhatsApp, Instagram and Facebook available in PNG and SVG.</p>
                     <img src="img/stickers.png">
                 </div>
                 <div class="box">
@@ -129,38 +129,38 @@
                 <h2>Top icons</h2>
                 <h5><a href="#">View all --></a></h5>
                 <div class="box_1">
-                    <img src="img/top_icon_1.jpg">
-                    <p>Sport <span>50 ICONS</span></p>
+                    <img src="img/top_icon_1.jpg" id="top_icon_1">
+                    <p id="icons_1_title">Sport<span>50 ICONS</span></p>
                 </div>
                 <div class="box_1">
-                    <img src="img/top_icon_2.jpg">
-                    <p>USA <span>42 ICONS</span></p>
+                    <img src="img/top_icon_2.jpg" id="top_icon_2">
+                    <p id="icons_2_title">USA <span>42 ICONS</span></p>
                 </div>
                 <div class="box_1">
-                    <img src="img/top_icon_3.jpg">
-                    <p>Autumn Nature <span>50 ICONS</span></p>
+                    <img src="img/top_icon_3.jpg" id="top_icon_3">
+                    <p id="icons_3_title">Autumn Nature <span>50 ICONS</span></p>
                 </div>
                 <div class="box_1">
-                    <img src="img/top_icon_4.jpg">
-                    <p>Recycling <span>40 ICONS</span></p>
+                    <img src="img/top_icon_4.jpg" id="top_icon_4">
+                    <p id="icons_4_title">Recycling <span>40 ICONS</span></p>
                 </div>
                 <h2>Top stickers</h2>
                 <h5><a href="#">View all --></a></h5>
                 <div class="box_1" style="left: 0;">
-                    <img src="img/top_stickers_1.jpg">
-                    <p>Hippie 60s <span>20 ICONS</span></p>
+                    <img src="img/top_stickers_1.jpg" id="top_stickers_1">
+                    <p  id="stickers_1_title">Hippie 60s <span>20 ICONS</span></p>
                 </div>
                 <div class="box_1" style="left: 0;">
-                    <img src="img/top_stickers_2.jpg">
-                    <p>Dinosaurs <span>20 ICONS</span></p>
+                    <img src="img/top_stickers_2.jpg" id="top_stickers_2">
+                    <p id="stickers_2_title">Dinosaurs <span>20 ICONS</span></p>
                 </div>
                 <div class="box_1" style="left: 0;">
-                    <img src="img/top_stickers_3.jpg">
-                    <p>Mental Health <span>20 ICONS</span></p>
+                    <img src="img/top_stickers_3.jpg" id="top_stickers_3">
+                    <p id="stickers_3_title">Mental Health <span>20 ICONS</span></p>
                 </div>
                 <div class="box_1" style="left: 0;">
-                    <img src="img/top_stickers_4.jpg">
-                    <p>Back to School <span>20 ICONS</span></p>
+                    <img src="img/top_stickers_4.jpg" id="top_stickers_4">
+                    <p id="stickers_4_title">Back to School <span>20 ICONS</span></p>
                 </div>
                 <!-- Box 2 -->
                 <div class="box_2">
@@ -300,5 +300,6 @@
         <!-- Ion-Icon -->
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="index.js" defer></script>
     </body>
 </html>
